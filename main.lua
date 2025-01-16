@@ -8652,7 +8652,7 @@ if IY_LOADED and not _G.IY_DEBUG == true then
  end)
  
  addcmd('credits',{'cred'},function(args, speaker)
-       notify('Thank you got all the developers of IY, ryzsb for modifying the script.')
+       notify('Credits to all the developers of IY, ryzsb for modifying the script.')
   end)
   
  addcmd('appearanceid',{'aid'},function(args, speaker)
@@ -12610,7 +12610,7 @@ if IY_LOADED and not _G.IY_DEBUG == true then
  
    if success then
       if currentVersion ~= latestVersionInfo.Version then
-         notify('Outdated','Get the new version at github.com/ryzsb/InfYieldPremium )
+         notify('Outdated','Get the new version at github.com/ryzsb/InfYieldPremium')
       end
  
       if latestVersionInfo.Announcement and latestVersionInfo.Announcement ~= '' then
